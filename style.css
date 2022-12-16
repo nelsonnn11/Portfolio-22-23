@@ -69,3 +69,36 @@ a:visited {
 img {
   border: 5px solid #ffffff;
 }
+
+/*Interests*/
+  #interests{
+  background: linear-gradient(-45deg, #42275a, #734b6d, #000428 , #004e92);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  
+#more{
+  background-size: 400% 400%;
+  height: 100vh;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
