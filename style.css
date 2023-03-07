@@ -1,7 +1,7 @@
 /* Whole Body + Animation */
 
 body {
-  background: linear-gradient(-45deg, #614385, #516395, #C33764, #1D2671);
+  background: linear-gradient(-45deg, #614385, #516395, #1e3262, #1D2671);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
@@ -23,6 +23,12 @@ body {
 
 #wrapper {
   padding: 50px;
+   text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
 }
 h1{
   color: white;
@@ -46,7 +52,7 @@ p{
 }
 
 #summary-list li:hover{
-    border-color: #55419f ;
+    border-color: #4078e7 ;
 }
 
 #summary-list{
@@ -64,6 +70,7 @@ a:link {
 a:visited {
   color: #000000;
 }
+
 
 /* Image */
 img {
@@ -138,7 +145,7 @@ img {
 }
 
 #summary-lists li:hover{
-    border-color: #55419f ;
+    border-color: #ffffff ;
 }
 
 #summary-lists {
@@ -167,3 +174,49 @@ h1{
 p{
   font-size: 20px;
 }
+
+/* skills */
+
+.skill-section{
+    position: relative;
+    margin: 100px 0;
+}
+
+.heading{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.skills-container{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    color: #fff;
+}
+
+.skill-card{
+    position: relative;
+}
+
+
+.skill-name{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+
+.skill-info{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 30px;
+}
+
